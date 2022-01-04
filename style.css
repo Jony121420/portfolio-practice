@@ -1,0 +1,38 @@
+.top-banner{
+    display: flex;
+    font-family: font-family: 'Poppins', sans-serif;;
+    
+}
+h1{
+    font-size: 72px;
+    
+}
+h3{
+    font-size: 25px;
+}
+span{
+    color: orange;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(orange,salmon);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.link:hover {
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+}
+.top-banner-text{
+    margin:70px 60px;
+}
+.top-banner-text p{
+    font-size: 20px;
+    width: 50%;
+   
+
+}
+.top-banner-image{
+    margin:20px 20px;
+}
