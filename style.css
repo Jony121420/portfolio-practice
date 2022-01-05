@@ -1,10 +1,16 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
 .top-banner{
     display: flex;
-    font-family: font-family: 'Poppins', sans-serif;;
     
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 h1{
-    font-size: 72px;
+    font-size: 62px;
     
 }
 h3{
@@ -20,8 +26,9 @@ span{
     border-radius: 10px;
 }
 .link:hover {
-    background-color: pink;
-    color: black;
+    background-image: linear-gradient(salmon,orange);
+
+    color: rgb(255, 255, 255);
     font-size: 18px;
 }
 .top-banner-text{
@@ -33,6 +40,84 @@ span{
    
 
 }
-.top-banner-image{
+.top-banner-img{
     margin:20px 20px;
+   
+}
+.middle-banner{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+.middle-banner-img{
+ 
+    margin:70px 60px;
+    
+}
+.middle-banner-text{
+    margin:90px 50px;
+    
+}
+.middle-banner-text p{
+    font-size: 20px;
+   
+   
+
+}
+.bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 4px;
+   
+}
+.both-bottom{
+    margin: 30px 10px;
+    display: flex;
+    
+    
+
+}
+.left-exp{
+    border-left: 10px solid orange ;
+    box-shadow: 5px 10px 22px black;
+    border-image-slice: 1;
+    
+    
+    
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 2%;
+    
+    width: 40%;
+    margin-right: 40px;
+    
+   
+
+    
+}
+.right-exp{
+    border-left: 10px solid red ;
+    box-shadow: 5px 10px 22px black;
+   
+    
+    margin-right: 5%;
+    
+    text-align: center;
+    width: 40%;
+    border-image-slice: 1;
+    
+    
+}
+footer p{
+    text-align: center;
+    margin-top: 30px;
+}
+.experience{
+    font-size: 62px;
+    padding-left: 25px;
+    font-weight: 400;
+    color: black;
 }
